@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body
 {
@@ -41,4 +42,49 @@ a
 
 @media screen and (max-width: 360px) {
 
+=======
+
+body
+{
+	color: white;
+    text-align: center;
+    font-family: serif;
+    background: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+}
+
+h4
+{
+	font-family: "Good Times", serif;
+}
+
+hr
+{
+    background-color: #000;
+}
+
+.row
+{
+    text-align: center;
+}
+
+.btn
+{
+    width: 15em;
+    font-size: 18px;
+    margin: 8px;
+}
+
+a
+{
+	color: white;
+}
+
+@media screen and (max-width: 360px) {
+
+>>>>>>> 3dcddd1499c8e64fc664ef548f19e7d5d15fef1e
 }
