@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html class=''>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/welcome.css">
+    </head>
+    <body> 
+        <header id="top" class="main-header">
+            <h1>FlashMem</h1>
+            <p>"Remembering the basics in a flash..."</p>
+            <div class="border less-marging"></div>
+            <a class="btn btn-info" href="categories.php">Let's Start!</a>
+         </header>
+    </body>
+</html>

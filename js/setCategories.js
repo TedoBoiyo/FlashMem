@@ -43,7 +43,7 @@ function setCategories(path)
 		{
 			if (isLastCategory(path + "/" + subtopic)) // Subtopic is the last parent node category
 			{
-				window.location.href = "flashcard.html";
+				window.location.href = "flashcard.php";
 				sessionStorage.setItem("path", strPath + "/" + subtopic); 
 			}
 			else // Subtopic is not the last parent category
@@ -88,7 +88,7 @@ function resetCategories()
 	clearButtons(div);
 	setCategories(strPath);
 	console.log(firebase.database().ref(strPath).key);
-	if (firebase.database().ref(strPath).key == "Categories") 
+	if (firebase.database().ref(strPath).key == "categories") 
 	{
 		document.getElementById("backBtn").setAttribute("disabled", "disabled");
 	};
