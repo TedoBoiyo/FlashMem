@@ -43,7 +43,7 @@ function setCategories(path)
 		{
 			if (isLastCategory(path + "/" + subtopic)) // Subtopic is the last parent node category
 			{
-				window.location.href = "flashcard.php";
+				window.location.href = "flashcard.html";
 				sessionStorage.setItem("path", strPath + "/" + subtopic); 
 			}
 			else // Subtopic is not the last parent category
